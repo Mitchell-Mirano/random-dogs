@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="robots", content="index,follow">
+    <meta name="description",content="Una pagina para buscar, subir y guardar lindos perritos"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramdom Dogs</title>
+    <link rel="stylesheet" href="./src/style.css">
+</head>
+<body>
+
+    <main id="main">
+        <section id="favorites">
+            
+        </section>
+        <section id="search_and_upload">
+            <h2>Search or upload a beautiful dog</h2>
+            <section id="search">
+            
+            </section>
+
+
+            <section id="upload">
+                <h2>Upload your favorite dog</h2>
+                <figure>
+                    <img id="upload_image" src="">
+                </figure>
+                <form id="uploadform">
+                    <input type="file" accept="image/*" id="choose-file" name="file" />
+                    <button id="uploadbutton" type="button">Upload</button>
+                  </form>
+            </section>
+
+
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./src/settings.js"></script>
+    <script src="./src/index.js"></script>
+</body>
+</html>
